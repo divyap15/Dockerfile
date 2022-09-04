@@ -1,3 +1,3 @@
 FROM ubuntu
-ARG  Package
-RUN apt-get update -y && apt-get install -y $Package
+ARG  PACKAGE
+RUN apt-get update -y && apt-get install -y $PACKAGE
